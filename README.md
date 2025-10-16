@@ -1,6 +1,6 @@
-# Oocus - Stay Focused
+# oocus - Stay Focused
 
-Oocus is a browser extension that helps you stay focused by blurring distracting content on social media platforms. It allows you to focus on what's important by hiding distracting elements like thumbnails, posts, and videos, while keeping the navigation and search functionality accessible.
+oocus is a browser extension that helps you stay focused by blurring distracting content on social media platforms. It allows you to focus on what's important by hiding distracting elements like thumbnails, posts, and videos, while keeping the navigation and search functionality accessible.
 
 ## Features
 
@@ -29,7 +29,7 @@ Oocus is a browser extension that helps you stay focused by blurring distracting
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/oocus.git
+   git clone https://github.com/teja-pola/oocus.git
    cd oocus
    ```
 
