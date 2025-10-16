@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Keep existing utilities but tune overlay for dark glass */
+.oocus-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(6,8,12,0.55);
+  backdrop-filter: blur(6px) saturate(120%);
+  z-index: 2147483646;
+  pointer-events: none;
+}
+
+.oocus-reveal-button{
+  position:fixed;bottom:20px;right:20px;z-index:2147483647;background:linear-gradient(90deg,#7c5cff,#6ee7b7);color:#071029;border:none;border-radius:8px;padding:8px 14px;font-weight:700;cursor:pointer;box-shadow:0 8px 24px rgba(2,6,23,0.6)
+}
+
+header,nav,[role="navigation"]{position:relative;z-index:2147483645}
